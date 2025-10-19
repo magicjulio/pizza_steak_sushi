@@ -1,6 +1,7 @@
---index-url https://download.pytorch.org/whl/cpu
 flask==2.2.5
-torch>=2.0.0
-torchvision>=0.15.0
-pillow>=10.0.0
-pillow-heif>=0.15.0
+pillow
+
+# CPU-only PyTorch from their repo
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
